@@ -1,0 +1,311 @@
+/*-----------------------------------------------------Início-----------------------------------------------------*/
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/*imagem do início*/
+.capa img {
+	display: block; /*ocupa a largura inteira da página*/
+	width: 100%; /*largura*/
+	margin: 0 auto; /*centraliza*/
+}
+
+/*menu de navegação*/
+nav {
+	background: #000000;
+	height: 30px;
+	padding: 20px;
+	text-align: center;
+}
+
+/*linhas do menu de navegação*/
+nav li {
+	display: inline; /*deixa que exista outros conteúdos na lateral*/
+	margin: 10px;
+	padding: 30px;
+}
+
+/*palavras âncoras do menu de navegação*/
+nav a {
+	text-transform: uppercase; /*texto em letras maiúsculas*/
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+	font-family: 'Source Serif Pro', serif;
+	transition: 0.3s all;
+}
+
+/*"Faça seu pedido" com cor diferente*/
+.laranja {
+	color: orange;
+
+}
+
+/*mouse em cima do cabeçalho*/
+nav a:hover {
+	color: orange; /*muda a cor para laranja*/
+	text-decoration: underline; /*texto sublinhado*/
+}
+
+/*conteúdo principal -main-*/
+.titulo-apresentacao, .titulo-pop {
+	padding: 2em 0 1em 0;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold; /*deixa o texto em negrito*/
+}
+
+/*título do setor populares*/
+.titulo-pop {
+	padding: 65px 20px 40px 20px;
+}
+
+/*parágrafos*/
+p {
+	font-size: 25px;
+	text-align: center;
+	padding: 2px 2px 20px 2px;
+	margin: 0 5px 0 5px;
+}
+
+/*parágrafos da classe apresentacao*/
+.apresentacao p {
+	margin: 0 5px 50px 5px;
+}
+
+/*parágrafos da classe pedir*/
+.pedir p {
+	margin: 5px 50px 5px;
+	padding: 2px 2px 100px 2px;
+}
+
+/*setor dos sabores populares*/
+.populares {
+	/*Fundo degradê com tons de laranja*/
+	background: linear-gradient(#FF7C56, #FF6538, #FF843A, #FF5C3A, #FF7024, #FF8D50, #FF350B);
+}
+
+/*não deixa o link destacado em outra cor*/
+main a {
+	color: black;
+}
+
+/*mouse em cima do link*/
+main a:hover {
+	color: orange;
+}
+
+/*tempo de transição*/
+.link {
+	transition: 0.5s all;
+}
+
+/*palavra aumenta ao passar o mouse por cima*/
+.link:hover {
+	font-size: 30px;
+}
+
+/*sabores populares*/
+.sabores-pop {
+	width: 100%;
+	padding: 2px;
+	text-align: center;
+}
+
+/*título dos sabores populares*/
+li h3 {
+	font-size: 20px;
+	padding: 10px;
+}
+
+/*linhas com os sabores populares*/
+.sabores-pop li {
+	display: inline-block; /*ocupa somente o tamanho do seu conteúdo*/
+	margin: 2%;
+	padding: 1px 10px 2px 10px;
+	border: 2px solid black; /*borda*/
+	border-radius: 5px; /*arredonda o canto da borda*/
+	background: #FFAD80;
+	transition: 1s all;
+}
+
+/*imagem dos sabores populares*/
+.sabores-pop img {
+	width: 400px;
+	border: 2px solid black; /*borda da imagem*/
+}
+
+/*imagem aumenta ao passar o mouse por cima*/
+.sabores-pop li:hover {
+	transform: scale(1.1);
+}
+
+
+/*-----------------------------------------------------Sabores-----------------------------------------------------*/
+/*conteúdo principal -main-*/
+.sabores {
+	width: 100%;
+	margin: 0 auto;
+	padding: 2px 2px 50px 2px;
+	text-align: center;
+	background: linear-gradient(#FF7C56, #FF6538, #FF843A, #FF5C3A, #FF7024, #FF8D50, #FF350B); /*fundo degradê*/
+}
+
+/*lista de sabores*/
+.sabores-escolha {
+	margin: 0 0 40px 0;
+}
+
+/*títulos do setor sabores*/
+.titulo-sabores, .tituloprincipal-sabores {
+	font-size: 40px;
+	color:  black;
+	text-align: center;
+	border: 1px solid black; /*borda do título*/
+	padding: 15px;
+	margin: 40px 0 20px 0;
+	background: #FFAD80;
+}
+
+/*título -Cardápio e valores-*/
+.tituloprincipal-sabores {
+	margin: 5px 0 10px 0;
+	font-size: 50px;
+}
+
+/*título individual de cada sabor*/
+li h3 {
+	font-size: 20px;
+	padding: 10px;
+}
+
+/*linhas com os sabores*/
+.sabores-escolha li {
+	/*display: inline-block; /*ocupa somente o tamanho do seu conteúdo*/
+	margin: 20px;
+	padding: 2px 10px 6px 10px;
+	border: 2px solid black; /*borda*/
+	border-radius: 5px; /*arredonda o canto da borda*/
+	background: #FFAD80;
+	transition: 1s all;
+}
+
+/*imagens dos sabores*/
+.sabores-escolha img {
+	width: 325px;
+	border: 2px solid black; /*borda da imagem*/
+}
+
+/*imagem aumenta ao passar o mouse por cima*/
+.sabores-escolha li:hover {
+	transform: scale(1.1);
+}
+
+/*tabela de preços*/
+table {
+	margin: 0 auto; /*centralizar*/
+	background: white; /*cor de fundo da tabela*/
+}
+
+/*cabeçalho da tabela*/
+thead {
+	color: #FF350B;
+	font-weight: bold; /*texto em negrito*/
+}
+
+/*colunas e linha*/
+td, th {
+	border: 2px solid #000000; /*borda da tabela*/
+	padding: 8px 15px;
+	font-size: 40px;
+}
+
+
+/*-----------------------------------------------------Faça seu pedido-----------------------------------------------------*/
+/*conteúdo principal*/
+.form{
+	background-image: url(fundo.png); /*papel de parede do formulário*/
+	padding: 20px;
+}
+
+/*formulário de contato*/
+form {
+	margin-left: 33%;
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+
+/*input*/
+form label {
+	display: block; /*ocupa a largura inteira da página*/
+	padding: 5px;
+	margin: 10px 0 0 0;
+	font-size: 20px;
+	color: white;
+}
+
+/*input*/
+.formulario {
+	padding: 5px;
+	width: 50%;
+}
+
+/*botão de enviar*/
+.enviar {
+	display: block; /*ocupa a largura inteira da página*/
+	width: 52%;
+	font-size: 20px;
+	font-weight: bold;
+	background: orange;
+	padding: 10px;
+	margin: 15px 0 0 0;
+	border: 1px solid black;
+	border-radius: 5px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+/*mouse em cima do botão*/
+.enviar:hover {
+	background: darkorange; /*muda a cor do botão para laranja escuro*/
+}
+
+
+/*-----------------------------------------------------Rodapé-----------------------------------------------------*/
+/*rodapé*/
+footer {
+	background: #000000;
+	height: 120px;
+	padding: 30px 0 70px 0;
+}
+
+/*informações do rodapé*/
+.rodape {
+	color:  white;
+	margin: 10px;
+	font-size: 25px;
+}
+
+/*símbolo de direitos autorais*/
+.copyright {
+	color: white;
+	font-size: 13px;
+	margin: 20px;
+	text-align: center;
+}
+
+
+/*-----------------------------------------------Pedido Finalizado-------------------------------------------------*/
+.finalizacao {
+	width: 100%;
+	margin: 0 auto;
+	padding: 2px 2px 50px 2px;
+	text-align: center;
+
+}
+.titulo-recado {
+	padding: 2em 0 1em 0;
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;	
+}

@@ -1,0 +1,19 @@
+/*---------------------------index---------------------------*/
+.sabores-pop {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+/*--------------------------sabores---------------------------*/
+.sabores-imagem {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+
+
+/*----------------------faça seu pedido-----------------------*/
+
+/*---------------------finalização pedido---------------------*/
